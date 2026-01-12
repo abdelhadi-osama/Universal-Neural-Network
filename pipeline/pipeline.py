@@ -1,12 +1,12 @@
 import numpy as np
 
 # --- IMPORTS FROM OUR  MODULES ---from 
-from NN_project.model.optimizers import Optimizer
-from NN_project.model.mlp import MLP
-from NN_project.model.loss import loss
-from NN_project.model.scheduler import LearningRateScheduler
-from NN_project.data_pipeline.data_generator import DataGenerator
-from NN_project.utils.logger import LoggerSetup  
+from model.optimizers import Optimizer
+from model.mlp import MLP
+from model.loss import loss
+from model.scheduler import LearningRateScheduler
+from data_pipeline.data_generator import DataGenerator
+from utils.logger import LoggerSetup  
 
 class NeuralNetworkPipeline:
     def __init__(self, layer_sizes,activations=None , lr=0.1 ,batch_size=32, l_lambda = 0.0001,regularization ='L2',loss_type='BCE',dropout_rates=None ,optimizer_method='adam', 
