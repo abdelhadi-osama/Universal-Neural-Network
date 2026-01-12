@@ -81,7 +81,7 @@ You can choose between the standard pip method or the ultra-fast uv manager.
                         
                    2- Initialize & Sync: This will automatically create the virtual environment and install dependencies from pyproject.toml.
                              - git clone https://github.com/abdelhadi-osama/NN_project.git
-                              - cd Universal_Neural_Network
+                              - cd NN_project
 
                         Activate Environment:
                                 Bash
@@ -96,7 +96,7 @@ Option B: Standard (Legacy Pip)
         Clone the repository:
             Bash
             git clone https://github.com/abdelhadi-osama/NN_project.git
-            cd Universal_Neural_Network
+            cd NN_project
 
         Install Dependencies:
           Bash
