@@ -82,13 +82,15 @@ You can choose between the standard pip method or the ultra-fast uv manager.
                    2- Initialize & Sync: This will automatically create the virtual environment and install dependencies from pyproject.toml.
                              - git clone https://github.com/abdelhadi-osama/Universal-Neural-Network.git
                               - cd Universal_Neural_Network
+
+                        Activate Environment:
+                                Bash
+                                source .venv/bin/activate
+                                # On Windows: .venv\Scripts\activate
                               -uv sync
                          
                   
-                          Activate Environment:
-                          Bash
-                          source .venv/bin/activate
-                          # On Windows: .venv\Scripts\activate
+                          
 
 Option B: Standard (Legacy Pip)
         Clone the repository:
