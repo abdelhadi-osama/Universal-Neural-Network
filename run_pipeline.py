@@ -9,11 +9,11 @@ import numpy as np
 sys.path.append(os.getcwd())
 
 # --- IMPORT YOUR CUSTOM MODULES ---
-from NN_project.utils.logger import LoggerSetup
-from NN_project.data_pipeline.data_loader import DataLoader
-from NN_project.data_pipeline.preprocessor import Preprocessor
-from NN_project.pipeline.pipeline import NeuralNetworkPipeline
-from NN_project.evaluation.evaluator import Evaluator
+from utils.logger import LoggerSetup
+from data_pipeline.data_loader import DataLoader
+from data_pipeline.preprocessor import Preprocessor
+from pipeline.pipeline import NeuralNetworkPipeline
+from evaluation.evaluator import Evaluator
 
 # ---------------------------------------------------------
 # STEP 1: DATA CONTROLLER
@@ -188,7 +188,7 @@ def run_evaluation_pipeline(pipeline, data_bundle, config, logger):
 # ---------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', type=str, default='NN_project/config/config.yml')
+    parser.add_argument('--config', type=str, default='config/config.yml')
     parser.add_argument('--dataset', type=str, default='breast_cancer')
     args = parser.parse_args()
 
