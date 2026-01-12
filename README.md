@@ -80,8 +80,10 @@ You can choose between the standard pip method or the ultra-fast uv manager.
                         powershell -c "irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex"
                         
                    2- Initialize & Sync: This will automatically create the virtual environment and install dependencies from pyproject.toml.
-                          Bash
-                          uv sync
+                             - git clone [https://github.com/YOUR_USERNAME/Universal_Neural_Network.git](https://github.com/YOUR_USERNAME/Universal_Neural_Network.git)
+                              - cd Universal_Neural_Network
+                              -uv sync
+                         
                   
                           Activate Environment:
                           Bash
